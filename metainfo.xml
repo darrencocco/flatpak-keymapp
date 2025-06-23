@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>au.id.cocco.packages.flatpak.Keymapp</id>
+
+  <name>Keymapp (unofficial)</name>
+  <summary>ZSA keyboard management tool</summary>
+  <description>
+    <p>
+      Flash and control your ZSA keyboard.
+    </p>
+    <p>
+      Keymapp allows you to view your keyboard's layout right on your screen, in real-time. When you switch a layer, Keymapp's display updates to show the keys active on this layer.
+    </p>
+    <p>
+      Please note that this is an unofficial effort by a third party to repackage the vendor's
+      software for distribution via flatpak to offer more installation options, especially for
+      those running immutable distros like Fedora Silverblue.
+    </p>
+  </description>
+
+  <url type="homepage">https://www.zsa.io/flash</url>
+  <url type="faq">https://ergodox-ez.com/faq</url>
+
+  <metadata_license>MIT</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+
+  <content_rating type="oars-1.1">
+  </content_rating>
+
+  <developer id="io.zsa">
+    <name>ZSA</name>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://www.zsa.io/cdn-cgi/image/width=920,quality=80,format=auto/@tools/images/flash/step-4-image-2.webp</image>
+      <caption>Firmware flashing</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://www.zsa.io/cdn-cgi/image/width=920,quality=80,format=auto/@tools/images/flash/light-layout-3.webp</image>
+      <caption>Live layout view</caption>
+    </screenshot>
+  </screenshots>
+
+  <launchable type="desktop-id">au.id.cocco.packages.flatpak.Keymapp.desktop</launchable>
+
+  <icon type="stock">au.id.cocco.packages.flatpak.Keymapp</icon>
+
+  <categories>
+    <category>Utility</category>
+  </categories>
+
+  <provides>
+    <binary>keymapp</binary>
+  </provides>
+
+  <releases>
+    <release version="1.3.3-1" date="2024-11-18">
+      <description>
+        <p>First release></p>
+      </description>
+    </release>
+  </releases>
+</component>

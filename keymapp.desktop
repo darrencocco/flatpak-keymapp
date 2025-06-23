@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Keymapp
+Comment=ZSA keyboard management tool
+Icon=au.id.cocco.packages.flatpak.Keymapp
+Exec=keymapp
+Categories=Utility
